@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.7.2 (Linux)"/>
+	<meta name="created" content="2024-09-25T20:03:46.643684462"/>
+	<meta name="changed" content="2024-09-25T20:04:27.570559862"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "Noto Sans Mono CJK SC", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2"><font color="#ffffff">&lt;!DOCTYPE html&gt;</font>
+<font color="#ffffff">&lt;html lang=&quot;en&quot;&gt;</font>
+<font color="#ffffff">&lt;head&gt;</font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;meta charset=&quot;UTF-8&quot;&gt;</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;title&gt;Fast Food Orders&lt;/title&gt;</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;style&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">/* Simple styling */</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">body { font-family: Arial, sans-serif; margin: 20px; }</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">input[type=&quot;number&quot;] { width: 50px; }</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">.item { margin-bottom: 10px; }</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">.orders { margin-top: 30px; }</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/style&gt;</span></span></font>
+<font color="#ffffff">&lt;/head&gt;</font>
+<font color="#ffffff">&lt;body&gt;</font>
+
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;h1&gt;Place Your Order&lt;/h1&gt;</span></span></font>
+<font color="#ffffff">    </font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;form id=&quot;orderForm&quot;&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;label for=&quot;name&quot;&gt;Your Name:&lt;/label&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;input type=&quot;text&quot; id=&quot;name&quot; required&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#ffffff">        </font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;h2&gt;Menu&lt;/h2&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;item&quot;&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;label for=&quot;shawarma&quot;&gt;Shawarma ($5): &lt;/label&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;input type=&quot;number&quot; id=&quot;shawarma&quot; value=&quot;0&quot; min=&quot;0&quot;&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;item&quot;&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;label for=&quot;kebab&quot;&gt;Kebab ($6): &lt;/label&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;input type=&quot;number&quot; id=&quot;kebab&quot; value=&quot;0&quot; min=&quot;0&quot;&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;item&quot;&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;label for=&quot;pepsi&quot;&gt;Pepsi ($2): &lt;/label&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;input type=&quot;number&quot; id=&quot;pepsi&quot; value=&quot;0&quot; min=&quot;0&quot;&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;button type=&quot;submit&quot;&gt;Submit Order&lt;/button&gt;</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/form&gt;</span></span></font>
+
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;orders&quot;&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;h2&gt;All Orders&lt;/h2&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;ul id=&quot;orderList&quot;&gt;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">&lt;!-- Submitted orders will appear here --&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/ul&gt;</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;script&gt;</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">const orderForm = document.getElementById('orderForm');</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">const orderList = document.getElementById('orderList');</span></span></font>
+
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">orderForm.addEventListener('submit', function(e) {</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">e.preventDefault();</span></span></font>
+
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">// Get form data</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">const name = document.getElementById('name').value;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">const shawarmaQty = document.getElementById('shawarma').value;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">const kebabQty = document.getElementById('kebab').value;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">const pepsiQty = document.getElementById('pepsi').value;</span></span></font>
+
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">// Prepare order summary</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">let orderSummary = `${name} ordered: `;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">if (shawarmaQty &gt; 0) orderSummary += `${shawarmaQty} Shawarma, `;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">if (kebabQty &gt; 0) orderSummary += `${kebabQty} Kebab, `;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">if (pepsiQty &gt; 0) orderSummary += `${pepsiQty} Pepsi, `;</span></span></font>
+
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">orderSummary = orderSummary.replace(/, $/, ''); // Remove last comma</span></span></font>
+
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">// Display the order on the page</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">const listItem = document.createElement('li');</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">listItem.textContent = orderSummary;</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">orderList.appendChild(listItem);</span></span></font>
+
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">// Clear the form</span></span></font>
+<font color="#ffffff">            <span style="font-style: normal"><span style="font-weight: normal">orderForm.reset();</span></span></font>
+<font color="#ffffff">        <span style="font-style: normal"><span style="font-weight: normal">});</span></span></font>
+<font color="#ffffff">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/script&gt;</span></span></font>
+
+<font color="#ffffff">&lt;/body&gt;</font>
+<font color="#ffffff">&lt;/html&gt;</font></pre><p>
+<br/>
+<br/>
+<br/>
+
+</p>
+</body>
+</html>
